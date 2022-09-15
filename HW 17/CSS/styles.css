@@ -1,0 +1,104 @@
+
+
+.body{
+    background-color: #2B2B2B;
+    margin: 0;
+    font-weight: 300;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;    
+}
+.header{
+    background:#2B2B2B;
+
+}
+
+.logo{
+    padding: 10px;
+}
+
+  .nav {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+  }
+
+  .nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+  }
+
+  nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .nav:hover {
+    background-color: #00C3FF;
+  }
+
+  .fixed {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    outline: solid 2px black;
+    margin: auto;
+    top: 50%;
+    
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  .footer {
+    background: #2B2B2B;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    
+  }
+  .footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+  }
+
+  .footer a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+
+  .footer:hover {
+    background-color: #00C3FF;
+}
+    
