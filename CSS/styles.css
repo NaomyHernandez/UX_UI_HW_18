@@ -1,0 +1,269 @@
+
+
+
+.body{
+    background-color: #2B2B2B;
+    margin: 0;
+    font-weight: 300;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  
+    
+}
+.header{
+    background:#2B2B2B;
+    display: flex;
+    
+}
+
+.logo{
+  padding: 10px;
+  width: 100px;
+  height: auto;
+  
+}
+
+  .nav {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+  }
+
+  .nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+/*<!--  My UX Skills section coded using CSS flex -->*/
+  .nav li {
+    display: inline-flex;
+    margin-left: 70px;
+    padding-top: 25px;
+  }
+
+  nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .nav a:hover {
+    background-color: #00C3FF;
+    padding: 10px;
+  }
+
+  .section {
+    background-color: #2B2B2B;
+    padding: 600px 15px;
+    display: grid;
+   
+
+  }
+
+  .h1 {  
+    position: absolute;
+    width: 478px;
+    height: 69px;
+    left: 517px;
+    top: 210px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 90px;
+    text-align: center;
+    
+    color: #85E2FF;
+
+    flex: 1;
+    
+
+}
+
+.p{
+    position: absolute;
+   width: 405px;
+   height: 489px;
+    left: 273px;
+    top: 344px;
+   
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    
+    color: white;
+   
+}
+
+.mePic{
+    position: absolute;
+width: 350px;
+height: 350px;
+left: 767px;
+top: 344px;
+
+    border-radius: 50%;
+
+    
+}
+
+.skills{
+    position: absolute;
+width: 478px;
+height: 90px;
+left: 521px;
+top: 750px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 90px;
+
+
+text-align: center;
+
+color: #85E2FF;
+}
+
+/*<!--  My UX Skills section coded using CSS flex -->*/
+
+.flex-container {
+  display: flex;
+}
+
+.gradientbox{
+background: conic-gradient(from 180deg at 50% 50%, #C7FFEB 0deg, #85E2FF 180deg, #C7FFEB 360deg);
+border-radius: 10px;
+margin-top: 75px;
+font-family: 'Montserrat';
+
+flex: 1;
+margin-top: 200px;
+margin-right: 20px;
+}
+
+.gradientbox2{
+    background: conic-gradient(from 180deg at 50% 50%, #C7FFEB 0deg, #85E2FF 180deg, #C7FFEB 360deg);
+    border-radius: 10px;
+    margin-top: 75px;
+    font-family: 'Montserrat';
+
+    flex: 1;
+    margin-top: 200px;
+}
+
+.gradientbox h2{
+    text-align: center;
+    font-size: 32px;
+
+}
+
+.gradientbox li{
+    text-align:left;
+    list-style: inside;
+    margin: auto;
+    
+
+    width: 348px;
+    left: 343px;
+    top: 1104px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+    
+}
+.gradientbox2 h2{
+    text-align: center;
+    font-size: 32px;
+
+}
+.gradientbox2 li{
+    text-align: left;
+    list-style: inside;
+    margin: auto;
+
+    width: 348px;
+    left: 343px;
+    top: 1104px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+    
+
+ 
+.footer {
+    background: #2B2B2B;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none; 
+    font-family: 'Montserrat';
+  }
+  .footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+
+/*<!--  My UX Skills section coded using CSS flex -->*/
+  .footer li {
+    display: inline-flex;
+    margin-left: 70px;
+    padding-top: 25px;
+  }
+
+  .footer a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+
+
+  .footer a:hover {
+    background-color: #00C3FF;
+    padding: 10px;
+    
+}
+
+#linkedin{
+    width: 24px;
+    height: auto;
+    position: absolute;
+
+}
+    
+#gmail{
+    width: 24px;
+    height: auto;
+    position: absolute;
+
+}
+    
+  
