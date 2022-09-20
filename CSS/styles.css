@@ -1,6 +1,4 @@
 
-
-
 .body{
     background-color: #2B2B2B;
     margin: 0;
@@ -10,7 +8,6 @@
   width: 80%;
   margin: 0 auto;
   
-    
 }
 .header{
     background:#2B2B2B;
@@ -63,8 +60,6 @@
   .section {
     background-color: #2B2B2B;
     padding: 600px 15px;
-    display: grid;
-   
 
   }
 
@@ -252,18 +247,43 @@ margin-right: 20px;
     
 }
 
+
+.icons{
+  display: inline-flex;
+}
+
 #linkedin{
-    width: 24px;
-    height: auto;
-    position: absolute;
-
+  width: 24px;
 }
-    
 #gmail{
-    width: 24px;
-    height: auto;
-    position: absolute;
-
+  width: 24px;
 }
     
+
+/*<!-- My Work Section Constructed using CSS Grid -->*/
   
+@media only screen and (max-width: 600)
+.gridcontainer {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "top"
+  "middle"
+  "bottom"
+}
+
+.griditem1{
+  grid-area: top;
+
+}
+
+.griditem2{
+  grid-area: middle;
+
+}
+.griditem3{
+  grid: bottom;
+
+}
